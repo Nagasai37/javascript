@@ -1,7 +1,7 @@
 function greet(){
     console.log("hello"+name);
 }
-function process(callback)
+
 
 //settimeout(function())
 //async callbacks
