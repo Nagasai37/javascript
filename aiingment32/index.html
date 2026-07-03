@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hospital Management</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 id="welcome">Welcome to City Hospital</h1>
+
+<button id="changeWelcome">Change Welcome Message</button>
+
+<hr>
+
+<h2>Doctors</h2>
+
+<select id="doctor">
+    <option value="">Select Doctor</option>
+    <option value="Dr. Smith">Dr. Smith - Cardiologist</option>
+    <option value="Dr. John">Dr. John - Neurologist</option>
+    <option value="Dr. Lisa">Dr. Lisa - Pediatrician</option>
+</select>
+
+<p id="selectedDoctor"></p>
+
+<p id="specialization"></p>
+
+<button id="showSlots">Show Appointment Slots</button>
+
+<div id="slots" style="display:none;">
+    <p>9:00 AM</p>
+    <p>11:00 AM</p>
+    <p>2:00 PM</p>
+</div>
+
+<hr>
+
+<h2>Doctor List</h2>
+
+<ul id="doctorList">
+    <li class="doctor">Dr. Smith</li>
+    <li class="doctor">Dr. John</li>
+    <li class="doctor">Dr. Lisa</li>
+</ul>
+
+<button id="addDoctor">Add Doctor</button>
+
+<hr>
+
+<h2>Emergency Contact</h2>
+
+<p id="emergency">Emergency Number: 108</p>
+
+<button id="changeEmergency">Change Contact</button>
+
+<hr>
+
+<h2>Appointment Form</h2>
+
+<form id="appointmentForm">
+
+<input type="text" id="patientName" placeholder="Patient Name">
+
+<br><br>
+
+<textarea id="symptoms" placeholder="Symptoms"></textarea>
+
+<p>Characters: <span id="count">0</span></p>
+
+<br>
+
+<button type="submit">Book Appointment</button>
+
+</form>
+
+<hr>
+
+<h2>Mini Projects</h2>
+
+<button id="themeBtn">Light/Dark Mode</button>
+
+<br><br>
+
+
+
+<script src="index.js"></script>
+
+</body>
+</html>

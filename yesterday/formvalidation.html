@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formvalidation</title>
+</head>
+<body>
+<form id="loginform">
+<input
+type="text"
+placeholder="enter username"
+id=""username
+/>
+<br><br>
+<input
+type="password"
+placeholder="enter the password"
+id="password"
+/>
+<input 
+type="emailk"
+placeholder="enter email"
+id="email"
+
+<button>login</button>
+
+
+
+</form>
+
+
+    <script>
+let form=document.getElementById("loginform");
+form.addEventListener("submit",function(event){
+    event.preventDefault()
+    let username=document.getElementById("username").value
+    let password=document.getElementById("password").value
+    let email=document.getElementById("enter the email")
+
+    //email validation:
+    if(email.includes("@")){
+        alert("invalid mail")
+    }
+
+    if(password.length<8){
+        alert("password is empty")
+        return;
+
+    };
+
+
+
+
+
+
+    console.log(username)
+    console.log(password)
+    console.log(email)
+})
+
+    </script>
+</body>
+</html>

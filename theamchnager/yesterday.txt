@@ -1,0 +1,86 @@
+
+/nusllish coalescing(??)
+//it provides default value 
+//when the left value is null or undefined
+//syntax:value??
+//eg:
+
+
+/callback function:it is a function passed as an 
+//argument to another function
+//callback
+
+
+
+//higher oreder functions:
+//it accepts another function as an argument that is the higher oreder function
+//returns another function
+
+
+/for each -->used for iterations :
+//synatx:array.foreach(function(element){})
+
+
+
+/map():map(function,iterables)
+//to create a new array
+//original array remains unchange
+
+
+
+//filter:if the condition satisfy then the 
+//returns the value
+
+
+/reduce():reduces the array
+//into a single unit
+
+
+/find():returns firtst matching element:
+
+//some():return trueif
+//any element satisfy
+
+
+/every:return true if all
+//elements satisfy the conditions
+
+
+//{} it is a block an created a variable and when we write 
+only let key word have the global scope and block scope
+and var and const have no global scope only have block scope
+eg:
+let a=20
+var b=30
+const c=30
+only a only gets output;
+
+What is Spread Operator (...)?
+
+The spread operator is used in JavaScript to 
+expand (spread out) 
+elements of an array, object, or iterable into individual values.
+
+then is called sucessful execution 
+//catch is used to handle the errors
+
+
+setimeout():execute a function once after a
+//specified delay 
+
+
+   what is synchronous programming:
+    ->js executes one statement at a time
+    in the exact order it is written
+    ->the next statement should wait 
+    until the current statements executes
+    
+    asynchronouse programming:
+    ->js starts a task and continuous the task 
+    and continuous execution the remaing code without
+    waitoing for the task to finish
+    -->
+
+
+    /queryselector():
+//it is going to find the first matching element

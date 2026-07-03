@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Booking Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 id="welcome">Welcome to Dream Travels</h1>
+
+<button id="changeWelcome">Change Welcome Message</button>
+
+<hr>
+
+<h2>Travel Packages</h2>
+
+<div class="package active">
+    <h3>Goa</h3>
+    <p>Price: ₹<span id="price1">15000</span></p>
+    <button id="updatePrice">Update Prices</button>
+    <button id="showDetails">Show Details</button>
+</div>
+
+<div id="details" style="display:none;">
+    <p>4 Days / 3 Nights with Hotel and Breakfast.</p>
+</div>
+
+<hr>
+
+<h2>Destinations</h2>
+
+<select id="destination">
+    <option value="">Select Destination</option>
+    <option value="Goa">Goa</option>
+    <option value="Manali">Manali</option>
+    <option value="Kerala">Kerala</option>
+</select>
+
+<p id="destinationInfo"></p>
+
+<button id="addDestination">Add New Destination</button>
+
+<ul id="destinationList">
+    <li>Goa</li>
+    <li>Manali</li>
+    <li>Kerala</li>
+</ul>
+
+<hr>
+
+<h2>Booking Form</h2>
+
+<form id="bookingForm">
+
+<input type="text" id="name" placeholder="Enter Name">
+
+<br><br>
+
+<textarea id="request" placeholder="Special Requests"></textarea>
+
+<p>Characters: <span id="count">0</span></p>
+
+<button type="submit">Book Now</button>
+
+</form>
+
+<hr>
+
+<h2>Mini Projects</h2>
+
+<button id="themeBtn">Light/Dark Mode</button>
+
+<br><br>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
